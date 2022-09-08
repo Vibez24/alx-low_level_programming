@@ -1,9 +1,11 @@
 #include<stdio.h>
-
-/* Hello World C Program */
-
+/*
+ * main - Entry point
+ * Description: 'hello world alx'
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("Hello World");
-	return 0;
+	return (0);
 }
