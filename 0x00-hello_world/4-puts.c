@@ -1,9 +1,12 @@
 #include<stdio.h>
 int main(void)
 {
-	/* program string */
+	/** 
+	 * main - program string 
+	 * Return : always return (0)
+	 */
 
-	char Mystr[] = "Programming is like building a multilingual puzzle \n\n";
+	char Mystr[] = ("Programming is like building a multilingual puzzle \n");
 	puts(Mystr);
 	return (0);
 }
