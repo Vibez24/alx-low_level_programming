@@ -1,16 +1,19 @@
-#include "main.h"
+#include"main.h"
 /**
- * mul - function that multiplies two integers
- *
- * @a: an integer type
- * @b: an integer integer
- *
- * Return: return 0 on success and 1 on fail
- */
-int mul(int a, int b)
+ * print_most_numbers - print 0 - 9 apart
+ * from 2 and 4 and you can
+ * only use _putchar twice
+ * Return: Always 0 (Success)
+*/
+void print_most_numbers(void)
 
 {
-	int m = a * b;
-
-	return (m);
+	int num;
+	for (num = 0; num <= 9; ++num)
+	{
+		if (num == 2 || num == 4);
+		continue;
+		_putchar(num + 48);
+	}
+	_putchar('\n');
 }
