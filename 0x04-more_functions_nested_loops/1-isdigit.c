@@ -1,24 +1,16 @@
-#include "main.h"
-#include <ctype.h>
+#include "holberton.h"
 
 /**
- * _isdigit - function that checks a digit
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
  *
- * @c: return int type
- *
- * Return: return 0 on success and 1 on fail
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
-
-int _isdigit(int c)
+int _isupper(int c)
 {
-	int i = isdigit(c);
-
-	if (i > 0)
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
+
 	else
-	{
 		return (0);
-	}
 }
