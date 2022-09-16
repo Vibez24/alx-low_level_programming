@@ -9,13 +9,14 @@
  */
 int _isdigit(int c)
 {
- int i = isdigit(c);
- if (i > 0)
- {
-  return (1);
- }
- else
- {
-  return (0);
- }
-} 
+	int i = isdigit(c);
+
+	if (i > 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+}
