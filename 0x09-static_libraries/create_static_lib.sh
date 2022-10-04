@@ -1,5 +1,5 @@
-#!bin/bash
+#!/bin/bash
 
-gcc -c *.c
+gcc Wall -Wextra -Werror -pendantic -c *.c
 
 ar rc liball.a *.o
