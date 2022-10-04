@@ -7,7 +7,7 @@
  *
  * Return: Length.
  */
-int _strlen(char *s)
+int _strlen(char *s __attribute__((__unused__)))
 {
 	size_t len = 0;
 	int *str;
