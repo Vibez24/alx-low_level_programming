@@ -2,11 +2,11 @@
 #define DOG_H
 
 /**
- *Struct_dog - a struct type for a dog poppy
- * @ name first member
- * @ age second member
- * @ owner third member
- *
+ * struct dog - Stores variables with information on a dog
+ * Description: Define a new type struct dog with the following elements
+ * @name: type = char *
+ * @age: type = float
+ * @owner: type = char *
  */
 
 
