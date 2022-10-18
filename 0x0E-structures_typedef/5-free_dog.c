@@ -1,6 +1,6 @@
 /*
  * File: 5-free_dog.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: 
  */
 
 #include "dog.h"
@@ -17,4 +17,5 @@ void free_dog(dog_t *d)
 
 	free(d->owner);
 	free(d->name);
-	
+	free(d);
+}	
