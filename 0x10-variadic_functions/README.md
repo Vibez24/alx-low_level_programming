@@ -1,1 +1,1 @@
-Write a function that returns the sum of all its parameters.
+0x12-singly_linked_lists readme
