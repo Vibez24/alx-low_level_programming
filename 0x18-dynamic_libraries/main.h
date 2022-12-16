@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 #ifndef _MAIN_
 #define _MAIN_
+=======
+#ifndef _MAIN_H_
+#define _MAIN_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+>>>>>>> 23ca16d8ec4a6e465fb5f71c517ecc8b63f622c3
 
 int _putchar(char c);
 int _islower(int c);
